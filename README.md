@@ -20,6 +20,14 @@ Click any of the badges at the top of the README to view a dashboard.
 
 Keep reading to learn about modifying an existing dashboard, or how to build your own dashboard.
 
+To install this, there are a number of approaches, however, this works:
+
+- virtualenv menv
+- . ./menv/bin/activate
+- sh ./.setup_dev.sh
+
+After this, you can follow the steps to run this manually, or run it as part of a GHA.
+
 ## Modify the LF Dashboard
 
 1. **Modify the YAML in this repo**

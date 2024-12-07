@@ -5,7 +5,7 @@ repos:
     owner: lincc-frameworks
     smoke-test: smoke-test.yml
     live-build: testing-and-coverage.yml
-  
+
   - repo: hats
     owner: astronomy-commons
     smoke-test: smoke-test.yml
@@ -42,7 +42,8 @@ repos:
     build-docs: build-documentation.yml
     benchmarks: asv-nightly.yml
     live-build: testing-and-coverage.yml
-      
+    other_workflows: testing-windows.yml
+
   - repo: python-project-template
     owner: lincc-frameworks
     live-build: ci.yml
